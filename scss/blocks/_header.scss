@@ -1,0 +1,120 @@
+
+// header hero
+.header__hero{
+  background-color:  #7AC751;
+}
+.header__hero-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.header__hero-text{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.header__hero-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 285px;
+}
+.header__hero-select{
+  padding: 8px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+option{
+  background-color: #7AC751;
+  color: #000;
+}
+.header__hero-login{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  border-left: 3px solid #fff;
+  padding-left: 16px;
+}
+
+// header inner
+
+.header__inner-content{
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+}
+.header__inner-link{
+  display: inline-block;
+  text-decoration: none;
+}
+.header__inner-icon{
+  width: 147px;
+  height: 39px;
+  margin-right: 120px;
+}
+
+.forms{
+  width: 582px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #7AC751;
+  border-radius: 8px;
+}
+.forms__input{
+  border: none;
+  outline: none;
+  margin-right: auto;
+  padding-left: 25px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #B0B0B0;
+}
+.forms__select{
+  width: 123px;
+  border: none;
+  border-left: 1.5px solid rgba(227, 227, 227, 0.78);
+  padding: 11.5px 0;
+  margin-right: 12px;
+}
+.forms__btn{
+  border: none;
+  background-color: #7AC751;
+  padding: 12.8px 20px;
+  border-radius: 8px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.logo{
+  width: 123px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+}
+.logo__link{
+  position: relative;
+}
+.logo__link::before{
+  content: "4";
+  font-size: 10px;
+  text-align: center;
+  position: absolute;
+  top: -2px;
+  right: -7px;
+  width: 12px;
+  height: 12px;
+  background-color: #7AC751;
+  color: #fff;
+  border-radius: 50%;
+}
