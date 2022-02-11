@@ -22,7 +22,7 @@
   width: 285px;
 }
 .header__hero-select{
-  padding: 8px;
+  padding: 4px;
   border: none;
   background-color: transparent;
   outline: none;
@@ -83,8 +83,14 @@ option{
   width: 123px;
   border: none;
   border-left: 1.5px solid rgba(227, 227, 227, 0.78);
-  padding: 11.5px 0;
+  padding: 10px 0;
   margin-right: 12px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #555555;
+  text-align: center;
+  outline: none;
 }
 .forms__btn{
   border: none;
