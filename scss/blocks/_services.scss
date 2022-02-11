@@ -1,0 +1,40 @@
+.services{
+  margin-bottom: 70px;
+}
+.services__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+.services__item{
+  width: 224px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dostavka{
+  width: 58px;
+  height: 58px;
+}
+.services__item-tetle{
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #555555;
+}
+.services__item-text{
+  margin: 0;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: rgba(81, 81, 81, 0.71);
+}
