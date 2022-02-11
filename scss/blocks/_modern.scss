@@ -1,0 +1,104 @@
+.modern{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+.modern__starting{
+  position: relative;
+}
+.modern__starting-img{
+  width: 669px;
+  height: 511px;
+}
+.modern__starting-content{
+  position: absolute;
+  top: 49px;
+  left: 31px;
+}
+.modern__starting-title{
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #555555;
+}
+.modern__starting-text{
+  margin: 0;
+  margin-bottom: 13px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #7AC751;
+}
+.modern__starting-link{
+  display: block;
+  text-decoration: none;
+  font-weight: normal;
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #757575;
+}
+.modern__appliances{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modern__appliances-box{
+  position: relative;
+}
+.modern__appliances-box + .modern__appliances-box{
+  margin-top: 13px;
+}
+.modern__appliances-img{
+  width: 485px;
+  height: 247px;
+}
+.modern__appliances-content{
+  position: absolute;
+  top: 49px;
+  left: 24px;
+}
+.modern__appliances-title{
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #555555;
+}
+.modern__appliances-text{
+  margin: 0;
+  margin-bottom: 13px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #7AC751;
+}
+.modern__appliances-link{
+  display: block;
+  text-decoration: none;
+  font-weight: normal;
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #757575;
+}
